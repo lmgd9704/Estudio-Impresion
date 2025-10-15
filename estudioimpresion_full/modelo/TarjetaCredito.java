@@ -10,7 +10,6 @@ public class TarjetaCredito extends MetodoPago {
         this.cvv = cvv;
     }
 
-    @Override
     public boolean procesarPago(double monto) {
         System.out.println("Procesando pago con tarjeta " + numero + " por $" + monto);
         return true;

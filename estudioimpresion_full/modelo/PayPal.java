@@ -8,7 +8,6 @@ public class PayPal extends MetodoPago {
         this.email = email;
     }
 
-    @Override
     public boolean procesarPago(double monto) {
         System.out.println("Procesando pago con PayPal (" + email + ") por $" + monto);
         return true;

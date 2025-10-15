@@ -17,7 +17,6 @@ public abstract class Producto {
 
     public String getNombre() { return nombre; }
 
-    @Override
     public String toString() {
         return nombre + " ($" + precio + ")";
     }

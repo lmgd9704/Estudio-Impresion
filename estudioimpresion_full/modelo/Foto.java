@@ -14,12 +14,10 @@ public class Foto extends Producto {
         this.tipoPapel = tipoPapel;
     }
 
-    @Override
     public double obtenerPrecio() {
         return precio;
     }
 
-    @Override
     public String toString() {
         return "Foto: " + nombre + " [" + tamano + ", " + color + ", " + resolucion + ", Papel: " + tipoPapel + "]";
     }

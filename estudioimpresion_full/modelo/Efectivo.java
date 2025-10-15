@@ -6,7 +6,7 @@ public class Efectivo extends MetodoPago {
         super(nombre);
     }
 
-    @Override
+
     public boolean procesarPago(double monto) {
         System.out.println("Pago en efectivo recibido por $" + monto);
         return true;
