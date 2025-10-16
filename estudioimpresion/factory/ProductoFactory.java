@@ -72,9 +72,9 @@ public class ProductoFactory {
                 String resolucion = sc.nextLine();
 
                 System.out.println("Seleccione tipo de papel:");
-                System.out.println("1. Brillante");
-                System.out.println("2. Mate");
-                System.out.println("3. Satinado");
+                System.out.println("1. Cartulina");
+                System.out.println("2. Bond");
+                System.out.println("3. Papel Fotografico");
                 System.out.println("4. Otro");
                 System.out.print("Opción: ");
                 int papelOpc = sc.nextInt(); sc.nextLine();
